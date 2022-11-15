@@ -1,0 +1,1216 @@
+/* line 1, ../UBER/dist/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, ../UBER/dist/src/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 5, ../UBER/dist/src/sass/_general.sass */
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 10, ../UBER/dist/src/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 13, ../UBER/dist/src/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 20, ../UBER/dist/src/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 25, ../UBER/dist/src/sass/_general.sass */
+.menu_link:hover {
+  text-decoration: none;
+  color: #1EACC7;
+}
+
+/* line 29, ../UBER/dist/src/sass/_general.sass */
+.menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 33, ../UBER/dist/src/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 36, ../UBER/dist/src/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 87px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 42, ../UBER/dist/src/sass/_general.sass */
+.subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 47, ../UBER/dist/src/sass/_general.sass */
+.subheader_official {
+  margin-top: 6px;
+  font-weight: 100;
+  font-size: 13px;
+  opacity: 0.5;
+  color: #FFFFFF;
+}
+
+/* line 54, ../UBER/dist/src/sass/_general.sass */
+.subheader_call {
+  margin-top: 19px;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+/* line 61, ../UBER/dist/src/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 12px;
+}
+
+/* line 71, ../UBER/dist/src/sass/_general.sass */
+.subheader_btn {
+  margin-top: 21px;
+  width: 172px;
+  height: 46px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* line 2, ../UBER/dist/src/sass/_mixins.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
+}
+
+/* line 87, ../UBER/dist/src/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bg/uber_bg.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 92, ../UBER/dist/src/sass/_general.sass */
+.promo_header {
+  font-weight: 900;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 101, ../UBER/dist/src/sass/_general.sass */
+.promo_subheader {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 111, ../UBER/dist/src/sass/_general.sass */
+.promo_descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 23px;
+}
+
+/* line 119, ../UBER/dist/src/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 116px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+/* line 2, ../UBER/dist/src/sass/_mixins.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1EACC7;
+}
+
+/* line 135, ../UBER/dist/src/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 138, ../UBER/dist/src/sass/_general.sass */
+.label {
+  position: relative;
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 152, ../UBER/dist/src/sass/_general.sass */
+.label_white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* line 157, ../UBER/dist/src/sass/_general.sass */
+.title {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 168, ../UBER/dist/src/sass/_general.sass */
+.title_white {
+  color: #ffffff;
+}
+
+/* line 171, ../UBER/dist/src/sass/_general.sass */
+.subtitle {
+  position: relative;
+  text-align: center;
+  color: #222222;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 19px;
+  z-index: 2;
+}
+
+/* line 180, ../UBER/dist/src/sass/_general.sass */
+.subtitle_white {
+  color: #ffffff;
+}
+
+/* line 184, ../UBER/dist/src/sass/_general.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 187, ../UBER/dist/src/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 193, ../UBER/dist/src/sass/_general.sass */
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1EACC7;
+  border-radius: 100%;
+}
+
+/* line 203, ../UBER/dist/src/sass/_general.sass */
+.reasons_descr {
+  width: 343px;
+}
+
+/* line 206, ../UBER/dist/src/sass/_general.sass */
+.reasons_subtitle {
+  line-height: 21px;
+  color: #1EACC7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 212, ../UBER/dist/src/sass/_general.sass */
+.reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 262, ../UBER/dist/src/sass/_general.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bg/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 267, ../UBER/dist/src/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 270, ../UBER/dist/src/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 278, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_1 {
+  background: url("../img/uberMobile/main_bg1.jpg") center center/cover no-repeat;
+}
+
+/* line 281, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_2 {
+  background: url("../img/uberMobile/main_bg2.jpg") center center/cover no-repeat;
+}
+
+/* line 284, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_3 {
+  background: url("../img/uberMobile/main_bg3.jpg") center center/cover no-repeat;
+}
+
+/* line 287, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_4 {
+  background: url("../img/uberMobile/main_bg4.jpg") center center/cover no-repeat;
+}
+
+/* line 290, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_5 {
+  background: url("../img/uberMobile/main_bg5.jpg") center center/cover no-repeat;
+}
+
+/* line 293, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_6 {
+  background: url("../img/uberMobile/main_bg6.jpg") center center/cover no-repeat;
+}
+
+/* line 296, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 304, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 26px;
+  height: 26px;
+  background: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 319, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1EACC7;
+  transition: 0.3s all;
+}
+
+/* line 327, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1EACC7;
+  transition: 0.3s all;
+}
+
+/* line 339, ../UBER/dist/src/sass/_general.sass */
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #FF5656;
+}
+
+/* line 343, ../UBER/dist/src/sass/_general.sass */
+.choice {
+  position: relative;
+  min-height: 896px;
+  padding: 56px 0 137.5px 0;
+  background: url("../img/bg/mobile_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 349, ../UBER/dist/src/sass/_general.sass */
+.choice_img {
+  position: relative;
+  display: block;
+  margin: 56px auto 0 auto;
+  z-index: 2;
+}
+
+/* line 355, ../UBER/dist/src/sass/_general.sass */
+.choice_descr {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+}
+
+/* line 362, ../UBER/dist/src/sass/_general.sass */
+.choice .black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 499px;
+  width: 100%;
+  background-color: #070716;
+  z-index: 1;
+}
+
+/* line 371, ../UBER/dist/src/sass/_general.sass */
+.require {
+  padding: 66px 0 87px 0;
+}
+
+/* line 374, ../UBER/dist/src/sass/_general.sass */
+.require_block {
+  margin: 33px 0 33px 0;
+}
+
+/* line 377, ../UBER/dist/src/sass/_general.sass */
+.require_block_nbm {
+  margin-bottom: 0px;
+}
+
+/* line 380, ../UBER/dist/src/sass/_general.sass */
+.require_title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #1CA8C3;
+}
+
+/* line 385, ../UBER/dist/src/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 390, ../UBER/dist/src/sass/_general.sass */
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 397, ../UBER/dist/src/sass/_general.sass */
+.require_list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/Rectangle.png") center center/cover no-repeat;
+}
+
+/* line 407, ../UBER/dist/src/sass/_general.sass */
+.require_descr {
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  color: #1CA8C3;
+}
+
+/* line 415, ../UBER/dist/src/sass/_general.sass */
+.require .warning .require_title {
+  color: #FF5656;
+}
+
+/* line 420, ../UBER/dist/src/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url("../icons/LayerRad.png") center center/cover no-repeat;
+}
+
+/* line 423, ../UBER/dist/src/sass/_general.sass */
+.world {
+  min-height: 720px;
+  position: relative;
+  padding: 49px 0;
+  background: url("../img/bg/world_bg.jpg") center center/cover no-repeat;
+}
+
+/* line 429, ../UBER/dist/src/sass/_general.sass */
+.world_link {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 49px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #1EACC7;
+}
+
+/* line 441, ../UBER/dist/src/sass/_general.sass */
+.world_linkhover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* line 445, ../UBER/dist/src/sass/_general.sass */
+footer {
+  padding: 14px 23px 39px 23px;
+}
+
+/* line 449, ../UBER/dist/src/sass/_general.sass */
+footer a:hover {
+  text-decoration: none;
+}
+
+/* line 453, ../UBER/dist/src/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 459, ../UBER/dist/src/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 465, ../UBER/dist/src/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 468, ../UBER/dist/src/sass/_general.sass */
+.footer_wrapper > div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 472, ../UBER/dist/src/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 477, ../UBER/dist/src/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 487, ../UBER/dist/src/sass/_general.sass */
+.footer_social_item i {
+  color: #fff;
+}
+
+/* line 490, ../UBER/dist/src/sass/_general.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 494, ../UBER/dist/src/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 499, ../UBER/dist/src/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 505, ../UBER/dist/src/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 510, ../UBER/dist/src/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 516, ../UBER/dist/src/sass/_general.sass */
+.footer_links_lang {
+  display: block;
+  margin: 0 auto;
+  color: #1fbad6;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 19px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 526, ../UBER/dist/src/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, ../UBER/dist/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 20px;
+  }
+  /* line 6, ../UBER/dist/src/sass/_media.sass */
+  .menu_link {
+    font-size: 13px;
+  }
+  /* line 9, ../UBER/dist/src/sass/_media.sass */
+  .promo_header {
+    font-size: 50px;
+  }
+  /* line 12, ../UBER/dist/src/sass/_media.sass */
+  .reasons_block {
+    align-items: flex-start;
+  }
+  /* line 15, ../UBER/dist/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+  }
+  /* line 18, ../UBER/dist/src/sass/_media.sass */
+  .mobile_item {
+    width: 290px;
+  }
+  /* line 21, ../UBER/dist/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 22px;
+  }
+  /* line 23, ../UBER/dist/src/sass/_media.sass */
+  .choice {
+    padding: 55px 0;
+    min-height: 840px;
+  }
+  /* line 27, ../UBER/dist/src/sass/_media.sass */
+  .require br {
+    display: none;
+  }
+  /* line 30, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  /* line 33, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  /* line 36, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* line 41, ../UBER/dist/src/sass/_media.sass */
+  .footer_mobile {
+    display: flex;
+  }
+  /* line 44, ../UBER/dist/src/sass/_media.sass */
+  .footer_mobile a {
+    margin: 0 3px;
+  }
+  /* line 47, ../UBER/dist/src/sass/_media.sass */
+  .footer_mobile a img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 51, ../UBER/dist/src/sass/_media.sass */
+  .title {
+    font-size: 28px;
+  }
+  /* line 54, ../UBER/dist/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 57, ../UBER/dist/src/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 61, ../UBER/dist/src/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 64, ../UBER/dist/src/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 67, ../UBER/dist/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 70, ../UBER/dist/src/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 75, ../UBER/dist/src/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 78, ../UBER/dist/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 81, ../UBER/dist/src/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 85, ../UBER/dist/src/sass/_media.sass */
+  .reasons_round {
+    margin-right: 0;
+  }
+  /* line 88, ../UBER/dist/src/sass/_media.sass */
+  .reasons_descr {
+    width: 300px;
+    margin-top: 20px;
+  }
+  /* line 91, ../UBER/dist/src/sass/_media.sass */
+  .choice {
+    min-height: 800px;
+  }
+  /* line 94, ../UBER/dist/src/sass/_media.sass */
+  .choice_img {
+    width: 100%;
+  }
+  /* line 96, ../UBER/dist/src/sass/_media.sass */
+  .world {
+    min-height: 650px;
+  }
+  /* line 99, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper {
+    flex-wrap: wrap;
+  }
+  /* line 102, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  /* line 108, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%;
+  }
+  /* line 111, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 116, ../UBER/dist/src/sass/_media.sass */
+  .title {
+    margin-top: 25px;
+  }
+  /* line 118, ../UBER/dist/src/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+    z-index: 1;
+  }
+  /* line 132, ../UBER/dist/src/sass/_media.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 135, ../UBER/dist/src/sass/_media.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
+  /* line 140, ../UBER/dist/src/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 142, ../UBER/dist/src/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+  }
+  /* line 151, ../UBER/dist/src/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    transition: 0.5s all;
+  }
+  /* line 160, ../UBER/dist/src/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 163, ../UBER/dist/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 166, ../UBER/dist/src/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 169, ../UBER/dist/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 171, ../UBER/dist/src/sass/_media.sass */
+  .xs-hidden {
+    display: none;
+  }
+  /* line 173, ../UBER/dist/src/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 176, ../UBER/dist/src/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* line 185, ../UBER/dist/src/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 192, ../UBER/dist/src/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+  /* line 194, ../UBER/dist/src/sass/_media.sass */
+  .reasons {
+    padding: 40px 0;
+  }
+  /* line 197, ../UBER/dist/src/sass/_media.sass */
+  .reasons_descr {
+    width: 350px;
+  }
+  /* line 200, ../UBER/dist/src/sass/_media.sass */
+  .reasons_subtitle {
+    text-align: center;
+  }
+  /* line 203, ../UBER/dist/src/sass/_media.sass */
+  .reasons_text {
+    margin-top: 10px;
+  }
+  /* line 205, ../UBER/dist/src/sass/_media.sass */
+  .mobile {
+    padding: 40px 0;
+  }
+  /* line 207, ../UBER/dist/src/sass/_media.sass */
+  .choice {
+    min-height: 600px;
+    padding: 40px 0;
+    z-index: 2;
+  }
+  /* line 211, ../UBER/dist/src/sass/_media.sass */
+  .require {
+    padding: 40px 0;
+  }
+  /* line 213, ../UBER/dist/src/sass/_media.sass */
+  .world {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 217, ../UBER/dist/src/sass/_media.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 219, ../UBER/dist/src/sass/_media.sass */
+  header {
+    height: 30px;
+  }
+  /* line 221, ../UBER/dist/src/sass/_media.sass */
+  .title {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 225, ../UBER/dist/src/sass/_media.sass */
+  .subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 11px;
+  }
+  /* line 229, ../UBER/dist/src/sass/_media.sass */
+  .subheader {
+    height: 60px;
+    top: 30px;
+  }
+  /* line 233, ../UBER/dist/src/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 236, ../UBER/dist/src/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 239, ../UBER/dist/src/sass/_media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 245, ../UBER/dist/src/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 9px;
+    margin-top: 6px;
+  }
+  /* line 251, ../UBER/dist/src/sass/_media.sass */
+  .subheader_btn:hover {
+    background-image: linear-gradient(to top, #1EACC7 0%, #4ce2ff 100%);
+  }
+  /* line 253, ../UBER/dist/src/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 257, ../UBER/dist/src/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 260, ../UBER/dist/src/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 265, ../UBER/dist/src/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 271, ../UBER/dist/src/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+    font-size: 16px;
+  }
+  /* line 277, ../UBER/dist/src/sass/_media.sass */
+  .promo_btn:hover {
+    background-image: linear-gradient(to top, #1EACC7 0%, #4ce2ff 100%);
+  }
+  /* line 279, ../UBER/dist/src/sass/_media.sass */
+  .menu {
+    width: 85%;
+    z-index: 1;
+  }
+  /* line 283, ../UBER/dist/src/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 288, ../UBER/dist/src/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 293, ../UBER/dist/src/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+  }
+  /* line 296, ../UBER/dist/src/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(5px) rotate(45deg);
+  }
+  /* line 298, ../UBER/dist/src/sass/_media.sass */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 301, ../UBER/dist/src/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 304, ../UBER/dist/src/sass/_media.sass */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 308, ../UBER/dist/src/sass/_media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 312, ../UBER/dist/src/sass/_media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+    text-align: left;
+  }
+  /* line 316, ../UBER/dist/src/sass/_media.sass */
+  .reasons_text {
+    margin-top: 0;
+  }
+  /* line 318, ../UBER/dist/src/sass/_media.sass */
+  .mobile {
+    padding: 20px 0 40px 0;
+  }
+  /* line 321, ../UBER/dist/src/sass/_media.sass */
+  .mobile .row {
+    margin-top: 30px;
+  }
+  /* line 324, ../UBER/dist/src/sass/_media.sass */
+  .mobile_item {
+    height: 254px;
+    padding: 81px 40px 0 40px;
+  }
+  /* line 328, ../UBER/dist/src/sass/_media.sass */
+  .mobile_item_subtitle {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  /* line 332, ../UBER/dist/src/sass/_media.sass */
+  .mobile_item_plus {
+    bottom: 28px;
+  }
+  /* line 336, ../UBER/dist/src/sass/_media.sass */
+  .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+    background-color: #1EACC7;
+  }
+  /* line 338, ../UBER/dist/src/sass/_media.sass */
+  .choice {
+    padding: 25px 0 33px 0;
+    min-height: 390px;
+    background: #000;
+  }
+  /* line 343, ../UBER/dist/src/sass/_media.sass */
+  .choice_img {
+    margin-top: 35px;
+  }
+  /* line 346, ../UBER/dist/src/sass/_media.sass */
+  .choice_descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  /* line 353, ../UBER/dist/src/sass/_media.sass */
+  .choice .black {
+    display: none;
+  }
+  /* line 355, ../UBER/dist/src/sass/_media.sass */
+  .hidden-320 {
+    display: none;
+  }
+  /* line 357, ../UBER/dist/src/sass/_media.sass */
+  .require {
+    padding: 25px;
+  }
+  /* line 360, ../UBER/dist/src/sass/_media.sass */
+  .require_block {
+    margin: 30px 0 0 0;
+  }
+  /* line 363, ../UBER/dist/src/sass/_media.sass */
+  .require_title {
+    font-size: 16px;
+  }
+  /* line 366, ../UBER/dist/src/sass/_media.sass */
+  .require_list {
+    padding-left: 30px;
+    margin-top: 5px;
+  }
+  /* line 370, ../UBER/dist/src/sass/_media.sass */
+  .require_list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 20px;
+  }
+  /* line 375, ../UBER/dist/src/sass/_media.sass */
+  .require_descr {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  /* line 378, ../UBER/dist/src/sass/_media.sass */
+  .world {
+    min-height: 360px;
+    padding: 25px 0 30px 0;
+  }
+  /* line 382, ../UBER/dist/src/sass/_media.sass */
+  .world_link {
+    width: 200px;
+    display: block;
+    bottom: 30px;
+    line-height: 15px;
+  }
+  /* line 387, ../UBER/dist/src/sass/_media.sass */
+  footer {
+    padding: 25px 0 20px 0;
+  }
+  /* line 390, ../UBER/dist/src/sass/_media.sass */
+  .footer_divider {
+    width: 253px;
+    margin: 0 auto;
+  }
+  /* line 394, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper {
+    padding-top: 22px;
+  }
+  /* line 397, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div {
+    margin-bottom: 20px;
+  }
+  /* line 400, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(1) {
+    order: 2;
+  }
+  /* line 403, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(2) {
+    order: 1;
+  }
+  /* line 406, ../UBER/dist/src/sass/_media.sass */
+  .footer_wrapper > div:nth-child(3) {
+    order: 3;
+  }
+  /* line 409, ../UBER/dist/src/sass/_media.sass */
+  .footer_links {
+    width: 290px;
+  }
+  /* line 412, ../UBER/dist/src/sass/_media.sass */
+  .footer_links_main {
+    padding: 0;
+    font-size: 14px;
+  }
+  /* line 416, ../UBER/dist/src/sass/_media.sass */
+  .footer_links_sub {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 420, ../UBER/dist/src/sass/_media.sass */
+  .footer_links_sub a {
+    margin: 0 7px;
+  }
+  /* line 423, ../UBER/dist/src/sass/_media.sass */
+  .footer_links_lang {
+    margin-top: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
